@@ -1,0 +1,58 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 1rem;
+}
+
+Form {
+  display: grid;
+  gap: 5px;
+  width: 100%;
+}
+Form * {
+  font-size: 15px;
+}
+
+#card1{
+  margin-bottom: 10px;
+  height: 650px;
+  width: 600px;
+  border-color: #142F2F ;
+}
+#card2{
+  margin-bottom: 10px;
+  height: 250px;
+  width: 700px;
+  border-color: #142F2F ;
+}
+#card{
+  height: 300px;
+  width: 300px;
+  border-color: #142F2F ;
+}
+#h5{
+    margin-left: 90px;
+    text-decoration: none;
+    color: green;
+}
+#h6{
+  margin-left: 50px;
+  text-decoration: none;
+  color: green;
+}
+#next{
+    margin:6px;
+}
+#nameVertical{
+  height: 50px;
+  width: 350px;
+  margin-left: 20px ;
+  background-color: #FBFCFC;
+ 
+}
+.required-mark{
+  color: red;
+  font-size: 15px;
+
+}
